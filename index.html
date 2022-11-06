@@ -20,9 +20,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
-        <script type="text/javascript" language="Javascript">
-          document.oncontextmenu = function(){return false}
-          </script>
 
 
     </head>
@@ -32,29 +29,46 @@
       <div>
         <header>
             <h1 class="fs-1">Tecniusmc</h1>
+            <div class="container-fluid">
+              <nav class="navbar navbar-expand-lg navbar-dark bg-dark start-50 translate-middle nav">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown link
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li class="vips"><a class="dropdown-item" href="#">Vips</a></li>
+                          <li class="vip_Iron"><a class="dropdown-item" href="#">Vip Iron</a></li>
+                          <li class="vip_Gold"><a class="dropdown-item" href="#">Vip Gold</a></li>
+                          <li class="vip_Diamond"><a class="dropdown-item" href="#">Vip Diamond</a></li>
+                          <li class="vip_Netherite"><a class="dropdown-item" href="#">Vip Netherite</a></li>
+                          <li class="vip_Enderium"><a class="dropdown-item" href="#">Vip Enderium</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+            </nav>
+    
         </header>
 
-        <nav class="navigation">
-            <ul>
-              <li><a href="/">Inicio</a></li>
-              <li><a href="/">Tecnius</a></li>
-              <li><a href="/">Modalidades</a></li>
-              <li><a href="/">Vips</a></li>
-              <li><a href="/">Redes sociales</a></li>
-            </ul>
-            <div class="hide">
-              <i class="fa fa-bars" aria-hidden="true"></i><h3 id="Menu">Menu</h3>
-          </div>                        
-      </nav>
-      
-      
 
-      <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-      <script>
-          $(".hide").on('click', function() {
-            $("nav ul").toggle('slow');
-          })
-      </script>
       </div>
     
       <main class="container index-cont"> 
@@ -64,5 +78,6 @@
         </div>
       
       </main>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>

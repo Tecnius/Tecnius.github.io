@@ -6,4 +6,10 @@
     display: block;
     width: 17vh;
     border-radius: 50%;
+
+}
+
+main{
+    margin: 0% !important;
+    padding: 0% !important;
 }

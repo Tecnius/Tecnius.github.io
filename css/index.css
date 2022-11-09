@@ -1,7 +1,3 @@
-.index-cont{
-    margin-top: 6vh;
-}
-
 .Tec-Index{
     display: block;
     width: 17vh;
@@ -12,4 +8,8 @@
 main{
     margin: 0% !important;
     padding: 0% !important;
+}
+
+.carousel-inner{
+    height: 790px; 
 }

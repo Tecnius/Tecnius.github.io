@@ -6,10 +6,12 @@ header {
     background: rgb(85, 42, 155);
 }
 
-.img_nav {
-    width: 75px;
-    height: auto;
-    margin: 0.5em;
+.rounded-circle {
+    height: 100px;
+}
+
+.navbar-brand {
+    padding-bottom: 10px;
 }
 
 .vip_Iron:hover {

@@ -1,15 +1,189 @@
-.Tec-Index{
-    display: block;
-    width: 17vh;
-    border-radius: 50%;
-
+div.info1{
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    width: 94%;
+    overflow: hidden;
 }
 
-main{
-    margin: 0% !important;
-    padding: 0% !important;
+div.imagen1{
+    display: inline-block;
+    width: 35%;
+    height: auto;
 }
 
-.carousel-inner{
-    height: 790px; 
+img#imagen_1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+}
+
+div#texto_1{
+    display: inline-block;
+    position:absolute ;
+    width: 46%;
+    margin-left: 3%;
+    overflow: hidden;
+}
+
+h2#titulo_problematica{
+    padding-top: 2.6%;
+}
+
+p.texto_problematica{
+    font-size: 25px;
+}
+
+
+/* texto idea */
+
+div.info2{
+    margin: auto;
+    margin-top: 1.5%;
+    overflow: hidden;
+}
+
+div.texto2{    
+    margin: auto;
+    float: left;
+    padding: 0.5em 0 1em 2.5em;
+    width: 56%;
+}
+
+div.imagen2{
+    display: inline-block;
+    padding-top: 5em;
+    width: 40%;
+    margin-left: 2%;
+}
+
+h2.titulo_idea{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+p.texto_idea{
+    padding-top: 0.5em;
+    font-size: 25px;
+}
+
+img#imagen_2{
+    width: 97%;
+    height: auto;
+    margin-bottom: 4%;
+}
+
+@media (max-width: 1290px) {
+    p {
+        font-size: 21px !important
+    }
+}
+@media (max-width: 1064px) {
+    p {
+        font-size: 18px !important
+    }
+}
+@media (max-width: 940px) {
+    p {
+        font-size: 16px !important
+    }
+}
+@media (max-width: 860px) {
+    p {
+        font-size: 14px !important
+    }
+}
+
+@media (max-width: 710px) {
+    p {
+        font-size: 13px !important
+    }
+}
+
+@media (max-width: 660px) {
+    p {
+        font-size: 12px !important
+    }
+}
+
+@media (max-width: 620px) {
+    p {
+        font-size: 11px !important
+    }
+}
+
+@media (max-width: 570px) {
+    p {
+        font-size: 10px !important
+    }
+}
+
+@media (max-width: 520px) {
+    p {
+        font-size: 9px !important
+    }
+}
+
+@media (max-width: 470px) {
+    p {
+        font-size: 8px !important
+    }
+}
+
+@media (max-width: 420px) {
+    p {
+        font-size: 7px !important
+    }
+}
+
+@media (max-width: 370px) {
+    p {
+        font-size: 6px !important
+    }
+}
+
+@media (max-width: 320px) {
+    p {
+        font-size: 5px !important
+    }
+}
+
+@media (max-width: 950px) {
+  
+    div.info1{
+      margin-bottom: 35%;
+    }
+  
+    div.imagen1{
+      display: block;
+      margin: auto;
+      width: 40%;
+    }
+  
+    div.texto_1{
+      display: block;
+      margin: auto;
+    }
+}
+  
+@media (max-width: 720px) {
+    
+    *{
+      font-size: 15px;
+    }
+
+    *,body,div,nav,div{
+        font-size: 1em;
+    }
+  
+    div.texto2{
+      width: 100%;
+      padding-right: 10px;
+    }
+
+    div.imagen2{
+        padding-top: 0;
+        margin-left: 3em;
+    }
+  
 }
